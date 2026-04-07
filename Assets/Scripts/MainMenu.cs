@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
     public void AbrirCreditos()
     {
         // Carrega a cena de créditos
-        SceneManager.LoadScene("Creditos");
+        SceneManager.LoadScene("Créditos");
     }
 
     public void SairJogo()
@@ -20,5 +20,11 @@ public class MainMenu : MonoBehaviour
         // Fecha o jogo (funciona no build, não no editor)
         Application.Quit();
         Debug.Log("Jogo encerrado!");
+    }
+
+    public void VoltarMenu()
+    {
+        // Volta para o menu principal
+        SceneManager.LoadScene("Lobby");
     }
 }
