@@ -372,7 +372,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.15, y: 0, z: -20}
+  m_LocalPosition: {x: 73.47, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -438,8 +438,8 @@ MonoBehaviour:
   jogador: {fileID: 476975548}
   velocityCamera: 5
   offsetX: 0
-  limiteMinX: -1.15
-  limiteMaxX: 9999
+  limiteMinX: 1.86
+  limiteMaxX: 73.47
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e016c4441fa42494a871e459f23ca0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Respaw
-  limiteY: -20
+  limiteY: -10
 --- !u!1001 &528316200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1204,8 +1204,8 @@ Transform:
   m_GameObject: {fileID: 998473641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.4021, y: 6.6, z: -0.6497}
-  m_LocalScale: {x: 51.640965, y: 1, z: 11.6595}
+  m_LocalPosition: {x: 37.6396, y: 6.6, z: -0.6497}
+  m_LocalScale: {x: 100.11633, y: 1, z: 11.6595}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1651,8 +1651,8 @@ Transform:
   m_GameObject: {fileID: 1862379719}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.4021, y: -6.5, z: -0.6497}
-  m_LocalScale: {x: 51.640965, y: 1, z: 11.6595}
+  m_LocalPosition: {x: 37.76, y: -6.5, z: -0.6497}
+  m_LocalScale: {x: 100.359055, y: 1, z: 11.6595}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1981,11 +1981,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2471541788898003747, guid: 2c3c59df0c2214a4da8eebec6ead0840, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.1636815
+      value: 9.993273
       objectReference: {fileID: 0}
     - target: {fileID: 2471541788898003747, guid: 2c3c59df0c2214a4da8eebec6ead0840, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.493
+      value: 37.6402
       objectReference: {fileID: 0}
     - target: {fileID: 2471541788898003747, guid: 2c3c59df0c2214a4da8eebec6ead0840, type: 3}
       propertyPath: m_LocalPosition.y

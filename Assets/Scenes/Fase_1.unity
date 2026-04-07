@@ -427,7 +427,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.69, y: 0, z: -20}
+  m_LocalPosition: {x: 1.97, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -493,8 +493,8 @@ MonoBehaviour:
   jogador: {fileID: 476975548}
   velocityCamera: 5
   offsetX: 0
-  limiteMinX: 0.69
-  limiteMaxX: 69
+  limiteMinX: 1.97
+  limiteMaxX: 69.48
 --- !u!1001 &433110459
 PrefabInstance:
   m_ObjectHideFlags: 0
